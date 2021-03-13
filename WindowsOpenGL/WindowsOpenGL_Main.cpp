@@ -732,12 +732,6 @@ void onRenderScene2() {
 	//	glColor3f (0.0f, 1.0f, 0.0f);   glVertex3f (0.87f, -0.5f, -0.5f);
 	//	glColor3f (0.0f, 0.0f, 1.0f);   glVertex3f (-0.87f, -0.5f, -0.5f);
 	//glEnd ();
-	//drawSphere(100, 100, vec3(0.75f, 0.75f, 0.75f));
-	//drawCube(vec3(1.0f, 0.15f, 1.0f), 0x1|0x2|0x4);
-	//drawRandPoints(100000);
-	//drawGrid();
-	//drawAxis();
-	//drawTorus2(20, 11, vec3(0.5f, 0.5f, 0.5f));
 	glPopMatrix();
 	glDisable(GL_DEPTH_TEST);
 	drawText("abcdefghijklmnopqrstuvwxyz\n", vec2(-1.f, 1.f), vec2(1.f, 1.f), vec4(1.f, 1.f, 1.f, 1.f), vec2(0.f, 0.f));
